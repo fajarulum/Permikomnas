@@ -1,0 +1,211 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="utf-8">
+		<title>Permikonas | Perhimpunan Mahasiswa Komputer Nasional</title>
+		<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/costum/css/permi.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+	</head>
+	<body id="home">
+		<br>
+	<nav class="navbar navbar-light ">
+		<div class="col-md-5 d-flex justify-content-end">
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a href="index.html" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="tentang_kami.html" class="nav-link">Tentang Kami</a>
+				</li>
+				<li class="nav-item">
+					<a href="berita.html" class="nav-link ">Berita</a>
+				</li>
+				<li class="nav-item">
+					<a href="wilayah.html" class="nav-link active">Wilayah</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-2 d-flex justify-content-center">
+			<a class="navbar-brand img-logo" href="#">
+	   		 	<img src="assets/img/permilogo.png" width="130" height="120" alt="">
+	  		</a>
+		</div>
+		<div class="col-md-5">
+			<ul class="nav">
+				<li class="nav-item">
+					<a href="daftar_anggota.html" class="nav-link ">Daftar Anggota</a>
+				</li>
+				<li class="nav-item">
+					<a href="kontak.html" class="nav-link ">Kontak</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- header -->
+	<div class="jumbotron jumbotron-fluid" style="background-color: transparent;">
+	  <div class="container box-heading">
+	    <h1 class="display-4">Wilayah</h1>
+	    <p class="lead">Informasi Dari wilayah - wilayah yang tergabung ke dalam Permikomnas.</p>
+	  </div>
+	</div>
+
+	<!-- section sejarah -->
+	<section id="wilayah">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card news-left  shadow">
+						<ul class="category-widgets wilayah" id="menu-wilayah">
+							<li class="active">
+								<a href="#" class="menu-wilayabutton" data-id="1">
+									<span>
+										 Wilayah I Sumatra Utara
+									</span>
+									&nbsp;
+								</a>
+							</li>
+							<li>
+								<a href="#" class="menu-wilayabutton" data-id="2">
+									<span>
+										Wilayah II Sumatra Selatan
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="menu-wilayabutton" data-id="3">
+									<span>
+										 Wilayah II Sumatra Barat
+									</span>
+									&nbsp;
+								</a>
+							</li>
+							<li>
+								<a href="#" class="menu-wilayabutton" data-id="4">
+									<span>
+										 Wilayah VI Banten
+									</span>
+									&nbsp;
+								</a>
+							</li>
+							<li>
+								<a href="#" class="menu-wilayabutton" data-id="5">
+									<span>
+										 Wilayah V DKI Jakarta
+									</span>
+									&nbsp;
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="card news-left shadow pLR15">
+						<div class="box-heading">
+							<h5 id="title-wilayah">Struktur Organisasi Wilayah 1 Sumatra Utara</h5>
+						</div>
+						<br>
+						<div class="img-struktur">
+							<img id="img-wilayah" src="assets/img/struktur.jpeg" width="100%" height="400px">
+						</div>
+						<br>
+						<div>
+							<div id="example">
+							  <carousel-3d :controls-visible="true" :clickable="true">
+							    <slide v-for="(slide, i) in slides" :index="i">    
+							      	<figure>
+							      		<img src="https://placehold.it/360x270">  
+	                                    <figcaption>
+	                                        <h2 class="p-title">sss</h2>
+	                                        <p>sss</p>
+	                                    </figcaption>
+	                                </figure>
+							    </slide>
+							  </carousel-3d>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<br>
+	<footer>
+		<div class="container">
+		<div class=" col-md-12 footer ">
+			<div class="row">
+				<div class="col-md-8">
+					<p class="text-muted copy">&copy; 2019  Permikomnas. All Rights Reserved. </p>
+				</div>
+				<div class="col-md-4">
+					<h2>Follow Me on</h2>
+					<a href="" class="btn shadow btn-social-icon ">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a href="" class="btn shadow btn-social-icon ">
+						<i class="fa fa-instagram"></i>
+					</a>
+					<a href="" class="btn shadow btn-social-icon ">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a href="" class="btn shadow btn-social-icon ">
+						<i class="fa fa-youtube"></i>
+					</a>
+					<a href="" class="btn shadow btn-social-icon ">
+						<i class="fa fa-github"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/costum/script.js"></script>    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js"></script>
+	<script src="assets/js/vue-3d.min.js"></script>
+	<script>
+	    baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
+	    new Vue({
+		  el: '#example',
+		  data: {
+		    slides: 7
+		  },
+		  components: {
+		    'carousel-3d': Carousel3d.Carousel3d,
+		    'slide': Carousel3d.Slide
+		  }
+		})
+
+
+		$(document).ready(function(){
+			$("#menu-wilayah").on("click",".menu-wilayabutton",function(){
+
+				var id = $(this).attr("data-id");
+				console.log(id);
+				if(id == 2){
+					$('#title-wilayah').text("Wilayah Sumatra Selatan");
+					$('#img-wilayah').attr('src',"assets/img/struktur.jpeg");	
+				}else if(id == 1){
+					$('#title-wilayah').text("Wilayah Sumatra Utara");
+					$('#img-wilayah').attr('src',"assets/img/struktur.jpeg");	
+				}else if(id == 3){
+					$('#title-wilayah').text("Wilayah Sumatra Barat");
+					$('#img-wilayah').attr('src',"assets/img/struktur.jpeg");	
+				}else if(id == 4){
+					$('#title-wilayah').text("Wilayah Banten");
+					$('#img-wilayah').attr('src',"assets/img/struktur.jpeg");	
+				}else if(id == 5){
+					$('#title-wilayah').text("Wilayah DKI Jakarta");
+					$('#img-wilayah').attr('src',"assets/img/struktur.jpeg");	
+				}
+			})
+		})
+	</script>
+	</body>
+	</html>
